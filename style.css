@@ -1,0 +1,56 @@
+*{
+border:none;
+border-radius:10px;
+background:#003566;
+color:white;
+cursor:pointer;
+}
+
+.letters{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+padding:10px;
+}
+
+.letters button{
+width:45px;
+height:45px;
+border:none;
+border-radius:50%;
+background:#0077b6;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+.dictionary{
+padding:20px;
+}
+
+.letter-section{
+margin-bottom:40px;
+}
+
+.letter-section h2{
+background:#003566;
+color:white;
+padding:10px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+color:#0077b6;
+margin-bottom:10px;
+}
+          
